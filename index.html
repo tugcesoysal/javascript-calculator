@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="index.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div id="container" class="calculator">
+        <div id="display" class="full-width" >
+            <p class="top-display" id="all-calc"></p> <p class="bottom-display" id="current-calc">0</p>
+        </div>
+        <button id="clear" class="double-width red" data-action="clear">AC</button>
+        <button id="divide" class="well grey" data-action="divide">/</button>
+        <button id="multiply" class="well grey" data-action="multiply">x</button>
+        <button id="seven" class="well dark-grey">7</button>
+        <button id="eight" class="well dark-grey">8</button>
+        <button id="nine" class="well dark-grey">9</button>
+        <button id="subtract" class="well grey" data-action="subtract">-</button>
+        <button id="four" class="well dark-grey">4</button>
+        <button id="five" class="well dark-grey">5</button>
+        <button id="six" class="well dark-grey">6</button>
+        <button id="add" class="well grey" data-action="add">+</button>
+        <button id="one" class="well dark-grey">1</button>
+        <button id="two" class="well dark-grey">2</button>
+        <button id="three" class="well dark-grey">3</button>
+        <button id="equals" class="double-height dark-blue" data-action="calculate">=</button>
+        <button id="zero" class="double-width dark-grey">0</button>
+        <button id="decimal" class="well dark-grey" data-action="decimal">.</button>
+    </div>
+    <footer class="footer">
+      <p>Designed by freeCodeCamp</p>
+      <p>Coded by Tugce Soysal</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
